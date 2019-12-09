@@ -59,7 +59,7 @@ h5{
 
 @-webkit-keyframes one {
   0%   {background-color:red;}
-  50%  {background-color:blue;}
+  50%  {background-color:red;}
   75%  {background-color:red;}
   100% {background-color:red;}
 }
@@ -67,7 +67,7 @@ h5{
 
 @keyframes one {
   0%   {background-color:red;}
-  25%  {background-color:blue;}
+  25%  {background-color:red;}
   50%  {background-color:red;}
   75%  {background-color:red;}
   100% {background-color:red;}
@@ -130,7 +130,7 @@ h5{
    height: 50px;
    top: 250px;
    right: 350px;
-   background-color: blue;
+   background-color: red;
    position: absolute;
     transition: width 2s, height 2s, transform 2s;
 
@@ -146,20 +146,20 @@ h5{
 
 
  @-webkit-keyframes three {
-   0%   {background-color:blue; right:350px; top:250px;}
-   25%  {background-color:blue; right:1100px; top:0px;}
-   50%  {background-color:blue; right:200px; top:200px;}
-   75%  {background-color:blue; right:0px; top:500px;}
-   100% {background-color:blue; right:350px; top:250px;}
+   0%   {background-color:red; right:350px; top:250px;}
+   25%  {background-color:red; right:1100px; top:0px;}
+   50%  {background-color:red; right:200px; top:200px;}
+   75%  {background-color:red; right:0px; top:500px;}
+   100% {background-color:red; right:350px; top:250px;}
  }
 
 
  @keyframes three {
-   0%   {background-color:blue; right:350px; top:250px;}
-   25%  {background-color:blue; right:1100px; top:0px;}
-   50%  {background-color:blue; right:200px; top:200px;}
-   75%  {background-color:blue; right:0px; top:500px;}
-   100% {background-color:blue; right:350px; top:250px;}
+   0%   {background-color:red; right:350px; top:250px;}
+   25%  {background-color:red; right:1100px; top:0px;}
+   50%  {background-color:red; right:200px; top:200px;}
+   75%  {background-color:red; right:0px; top:500px;}
+   100% {background-color:red; right:350px; top:250px;}
   }
 
   /* .four:hover {
@@ -178,7 +178,7 @@ h5{
     height: 50px;
     top: 0px;
     right: 0px;
-    background-color: yellow;
+    background-color: white;
     position: fixed;
      transition: width 2s, height 2s, transform 2s;
 
@@ -313,7 +313,7 @@ h5{
  height: 50px;
  top: 300px;
  right: 150px;
- background-color: green;
+ background-color: red;
  position: absolute;
   transition: width 2s, height 2s, transform 2s;
 
@@ -329,20 +329,20 @@ h5{
 
 
  @-webkit-keyframes seven {
-   0%   {background-color:green; right:150px; top:300px;}
-   25%  {background-color:green; right:700px; top:-100px;}
-   50%  {background-color:green; right:300px; top:550px;}
-   75%  {background-color:green; right:900px; top:200px;}
-   100% {background-color:green; right:150px; top:300px;}
+   0%   {background-color:red; right:150px; top:300px;}
+   25%  {background-color:red; right:700px; top:-100px;}
+   50%  {background-color:red; right:300px; top:550px;}
+   75%  {background-color:red; right:900px; top:200px;}
+   100% {background-color:red; right:150px; top:300px;}
    }
 
 
  @keyframes seven {
-   0%   {background-color:green; right:150px; top:300px;}
-   25%  {background-color:green; right:700px; top:-100px;}
-   50%  {background-color:green; right:300px; top:550px;}
-   75%  {background-color:green; right:900px; top:200px;}
-   100% {background-color:green; right:150px; top:300px;}
+   0%   {background-color:red; right:150px; top:300px;}
+   25%  {background-color:red; right:700px; top:-100px;}
+   50%  {background-color:red; right:300px; top:550px;}
+   75%  {background-color:red; right:900px; top:200px;}
+   100% {background-color:red; right:150px; top:300px;}
   }
 
   /* .eight:hover {
@@ -492,7 +492,7 @@ h5{
  height: 50px;
  top: 670px;
  right: 200px;
- background-color: turquoise;
+ background-color: white;
  position: fixed;
   transition: width 2s, height 2s, transform 2s;
 
@@ -554,18 +554,18 @@ h5{
 
 @-webkit-keyframes twelve {
   0%   {background-color:red; right:750px; top:300px;}
-  25%  {background-color:yellow; right:1300px; top:400px;}
-  50%  {background-color:blue; right:300px; top:250px;}
-  75%  {background-color:green; right:900px; top:600px;}
+  25%  {background-color:red; right:1300px; top:400px;}
+  50%  {background-color:red; right:300px; top:250px;}
+  75%  {background-color:red; right:900px; top:600px;}
   100% {background-color:red; right:750px; top:300px;}
 }
 
 
  @keyframes twelve {
    0%   {background-color:red; right:750px; top:300px;}
-   25%  {background-color:yellow; right:1300px; top:400px;}
-   50%  {background-color:blue; right:300px; top:250px;}
-   75%  {background-color:green; right:900px; top:600px;}
+   25%  {background-color:red; right:1300px; top:400px;}
+   50%  {background-color:red; right:300px; top:250px;}
+   75%  {background-color:red; right:900px; top:600px;}
    100% {background-color:red; right:750px; top:300px;}
 }
 
@@ -599,18 +599,18 @@ animation-iteration-count: infinite;
 
 @-webkit-keyframes v {
 0%   {background-color:red; right:1150px; top:300px;}
-25%  {background-color:yellow; right:1150px; top:600px;}
-50%  {background-color:blue; right:100px; top:150px;}
-75%  {background-color:green; right:50px; top:50px;}
+25%  {background-color:red; right:1150px; top:600px;}
+50%  {background-color:red; right:100px; top:150px;}
+75%  {background-color:red; right:50px; top:50px;}
 100% {background-color:red; right:1150px; top:300px;}
 }
 
 
 @keyframes thirteen {
  0%   {background-color:red; right:1150px; top:300px;}
- 25%  {background-color:yellow; right:1150px; top:600px;}
- 50%  {background-color:blue; right:100px; top:150px;}
- 75%  {background-color:green; right:50px; top:50px;}
+ 25%  {background-color:red; right:1150px; top:600px;}
+ 50%  {background-color:red; right:100px; top:150px;}
+ 75%  {background-color:red; right:50px; top:50px;}
  100% {background-color:red; right:1150px; top:300px;}
 }
 
@@ -644,18 +644,18 @@ animation-iteration-count: infinite;
 
 @-webkit-keyframes fourteen {
 0%   {background-color:red; right:1330px; top:350px;}
-25%  {background-color:yellow; right:50px; top:50px;}
-50%  {background-color:blue; right:600px; top:650px;}
-75%  {background-color:green; right:200px; top:100px;}
+25%  {background-color:red; right:50px; top:50px;}
+50%  {background-color:red; right:600px; top:650px;}
+75%  {background-color:red; right:200px; top:100px;}
 100% {background-color:red; right:1330px; top:350px;}
 }
 
 
 @keyframes fourteen {
  0%   {background-color:red; right:1330px; top:350px;}
- 25%  {background-color:yellow; right:50px; top:50px;}
- 50%  {background-color:blue; right:600px; top:650px;}
- 75%  {background-color:green; right:200px; top:100px;}
+ 25%  {background-color:red; right:50px; top:50px;}
+ 50%  {background-color:red; right:600px; top:650px;}
+ 75%  {background-color:red; right:200px; top:100px;}
  100% {background-color:red; right:1330px; top:350px;}
 }
 
@@ -807,7 +807,7 @@ width: 50px;
 height: 300px;
 top: 0px;
 right: 1150px;
-background-color: darkgreen;
+background-color: red;
 position: absolute;
 transition: width 2s, height 2s, transform 2s;
 
@@ -824,18 +824,18 @@ animation-iteration-count: infinite;
 
 @-webkit-keyframes eighteen {
 0%   {background-color:red; right:1150px; top:0px;}
-25%  {background-color:yellow; right:500px; top:150px;}
-50%  {background-color:blue; right:800px; top:50px;}
-75%  {background-color:green; right:900px; top:400px;}
+25%  {background-color:red; right:500px; top:150px;}
+50%  {background-color:red; right:800px; top:50px;}
+75%  {background-color:red; right:900px; top:400px;}
 100% {background-color:red; right:1150px; top:0px;}
 }
 
 
 @keyframes eighteen {
  0%   {background-color:red; right:1150px; top:0px;}
- 25%  {background-color:yellow; right:500px; top:150px;}
- 50%  {background-color:blue; right:800px; top:50px;}
- 75%  {background-color:green; right:750px; top:400px;}
+ 25%  {background-color:red; right:500px; top:150px;}
+ 50%  {background-color:red; right:800px; top:50px;}
+ 75%  {background-color:red; right:750px; top:400px;}
  100% {background-color:red; right:1150px; top:0px;}
 }
 
@@ -987,7 +987,7 @@ width: 100px;
 height: 720px;
 top: 0px;
 right: 1450px;
-background-color: gold;
+background-color: white;
 position: fixed;
 transition: width 2s, height 2s, transform 2s;
 
