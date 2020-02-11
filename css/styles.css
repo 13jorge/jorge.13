@@ -12,37 +12,864 @@ body {
   background: black;
   font-family: 'Archivo Black', sans-serif;
 }
-a:hover{
-    text-decoration: underline #7A737A;
-}
-a{
-  color: black;
 
-}
-
-h1{
-  text-align: center;
-}
-h2{
-  text-align: center;
-}
-h5{
-  text-align: center;
-}
-
-/* .one:hover {
-  width: 100px;
-  height: 100px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
-} */
 
 .one {
-    background-color: red;
-  width: 150px;
+  background-color: black;
+  width: 50px;
   height: 50px;
   top: 300px;
-  right: 600px;
+  right: 750px;
+  position: absolute;
+
+
+  -webkit-animation-name: one;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+  animation-name: one;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+   animation-delay: 2s;
+}
+
+
+@-webkit-keyframes one {
+  0%   {background-color:black;}
+  25%   {background-color:red;}
+  50%  {background-color:blue;}
+  75%  {background-color:red;}
+  100% {background-color:black;}
+}
+
+
+@keyframes one {
+  0%   {background-color:black;}
+  25%  {background-color:red;}
+  50%  {background-color:blue;}
+  75%  {background-color:red;}
+  100% {background-color:black;}
+ }
+
+ .two {
+   background-color: black;
+   width: 50px;
+   height: 50px;
+   top: 300px;
+   right: 900px;
+   position: absolute;
+
+
+   -webkit-animation-name: twoL;
+   -webkit-animation-duration: 6s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-delay: 2s;
+   animation-name: two;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+    animation-delay: 2s;
+ }
+
+
+ @-webkit-keyframes two {
+   0%   {background-color:black;}
+   25%   {background-color:red;}
+   50%  {background-color:blue;}
+   75%  {background-color:red;}
+   100% {background-color:black;}
+ }
+
+
+ @keyframes two {
+   0%   {background-color:black;}
+   25%  {background-color:red;}
+   50%  {background-color:blue;}
+   75%  {background-color:red;}
+   100% {background-color:black;}
+  }
+
+  .three {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    top: 150px;
+    right: 900px;
+    position: absolute;
+
+
+    -webkit-animation-name: twoTL;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    animation-name: two;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+     animation-delay: 2s;
+  }
+
+
+  @-webkit-keyframes three {
+    0%   {background-color:black;}
+    25%   {background-color:red;}
+    50%  {background-color:blue;}
+    75%  {background-color:red;}
+    100% {background-color:black;}
+  }
+
+
+  @keyframes three {
+    0%   {background-color:black;}
+    25%  {background-color:red;}
+    50%  {background-color:blue;}
+    75%  {background-color:red;}
+    100% {background-color:black;}
+   }
+
+   .four {
+     background-color: black;
+     width: 50px;
+     height: 50px;
+     top: 150px;
+     right: 750px;
+     position: absolute;
+
+
+     -webkit-animation-name: twoTM;
+     -webkit-animation-duration: 6s;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-delay: 2s;
+     animation-name: two;
+     animation-duration: 6s;
+     animation-iteration-count: infinite;
+      animation-delay: 2s;
+   }
+
+
+   @-webkit-keyframes four {
+     0%   {background-color:black;}
+     25%   {background-color:red;}
+     50%  {background-color:blue;}
+     75%  {background-color:red;}
+     100% {background-color:black;}
+   }
+
+
+   @keyframes four {
+     0%   {background-color:black;}
+     25%  {background-color:red;}
+     50%  {background-color:blue;}
+     75%  {background-color:red;}
+     100% {background-color:black;}
+    }
+
+    .five {
+      background-color: black;
+      width: 50px;
+      height: 50px;
+      top: 150px;
+      right: 600px;
+      position: absolute;
+
+
+      -webkit-animation-name: twoTR;
+      -webkit-animation-duration: 6s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-delay: 2s;
+      animation-name: two;
+      animation-duration: 6s;
+      animation-iteration-count: infinite;
+       animation-delay: 2s;
+    }
+
+
+    @-webkit-keyframes five {
+      0%   {background-color:black;}
+      25%   {background-color:red;}
+      50%  {background-color:blue;}
+      75%  {background-color:red;}
+      100% {background-color:black;}
+    }
+
+
+    @keyframes five {
+      0%   {background-color:black;}
+      25%  {background-color:red;}
+      50%  {background-color:blue;}
+      75%  {background-color:red;}
+      100% {background-color:black;}
+     }
+
+     .six {
+       background-color: black;
+       width: 50px;
+       height: 50px;
+       top: 300px;
+       right: 600px;
+       position: absolute;
+
+
+       -webkit-animation-name: twoR;
+       -webkit-animation-duration: 6s;
+       -webkit-animation-iteration-count: infinite;
+       -webkit-animation-delay: 2s;
+       animation-name: two;
+       animation-duration: 6s;
+       animation-iteration-count: infinite;
+        animation-delay: 2s;
+     }
+
+
+     @-webkit-keyframes six {
+       0%   {background-color:black;}
+       25%   {background-color:red;}
+       50%  {background-color:blue;}
+       75%  {background-color:red;}
+       100% {background-color:black;}
+     }
+
+
+     @keyframes six {
+       0%   {background-color:black;}
+       25%  {background-color:red;}
+       50%  {background-color:blue;}
+       75%  {background-color:red;}
+       100% {background-color:black;}
+      }
+
+      .seven {
+        background-color: black;
+        width: 50px;
+        height: 50px;
+        top: 450px;
+        right: 600px;
+        position: absolute;
+
+
+        -webkit-animation-name: twoBR;
+        -webkit-animation-duration: 6s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-delay: 2s;
+        animation-name: two;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+         animation-delay: 2s;
+      }
+
+
+      @-webkit-keyframes seven {
+        0%   {background-color:black;}
+        25%   {background-color:red;}
+        50%  {background-color:blue;}
+        75%  {background-color:red;}
+        100% {background-color:black;}
+      }
+
+
+      @keyframes seven {
+        0%   {background-color:black;}
+        25%  {background-color:red;}
+        50%  {background-color:blue;}
+        75%  {background-color:red;}
+        100% {background-color:black;}
+       }
+       .eight {
+         background-color: black;
+         width: 50px;
+         height: 50px;
+         top: 450px;
+         right: 750px;
+         position: absolute;
+
+
+         -webkit-animation-name: twoBM;
+         -webkit-animation-duration: 6s;
+         -webkit-animation-iteration-count: infinite;
+         -webkit-animation-delay: 2s;
+         animation-name: two;
+         animation-duration: 6s;
+         animation-iteration-count: infinite;
+          animation-delay: 2s;
+       }
+
+
+       @-webkit-keyframes eight {
+         0%   {background-color:black;}
+         25%   {background-color:red;}
+         50%  {background-color:blue;}
+         75%  {background-color:red;}
+         100% {background-color:black;}
+       }
+
+
+       @keyframes eight {
+         0%   {background-color:black;}
+         25%  {background-color:red;}
+         50%  {background-color:blue;}
+         75%  {background-color:red;}
+         100% {background-color:black;}
+        }
+
+        .nine {
+          background-color: black;
+          width: 50px;
+          height: 50px;
+          top: 450px;
+          right: 900px;
+          position: absolute;
+
+
+          -webkit-animation-name: twoBL;
+          -webkit-animation-duration: 6s;
+          -webkit-animation-iteration-count: infinite;
+          -webkit-animation-delay: 2s;
+          animation-name: two;
+          animation-duration: 6s;
+          animation-iteration-count: infinite;
+           animation-delay: 2s;
+        }
+
+
+        @-webkit-keyframes nine {
+          0%   {background-color:black;}
+          25%   {background-color:red;}
+          50%  {background-color:blue;}
+          75%  {background-color:red;}
+          100% {background-color:black;}
+        }
+
+
+        @keyframes nine {
+          0%   {background-color:black;}
+          25%  {background-color:red;}
+          50%  {background-color:blue;}
+          75%  {background-color:red;}
+          100% {background-color:black;}
+         }
+
+         .ten {
+           background-color: black;
+           width: 50px;
+           height: 50px;
+           top: 600px;
+           right: 900px;
+           position: absolute;
+
+
+           -webkit-animation-name: two;
+           -webkit-animation-duration: 7s;
+           -webkit-animation-iteration-count: infinite;
+           -webkit-animation-delay: 2s;
+           animation-name: two;
+           animation-duration: 7s;
+           animation-iteration-count: infinite;
+            animation-delay: 2s;
+         }
+
+
+         @-webkit-keyframes ten {
+           0%   {background-color:black;}
+           25%   {background-color:red;}
+           50%  {background-color:blue;}
+           75%  {background-color:red;}
+           100% {background-color:black;}
+         }
+
+
+         @keyframes ten {
+           0%   {background-color:black;}
+           25%  {background-color:red;}
+           50%  {background-color:blue;}
+           75%  {background-color:red;}
+           100% {background-color:black;}
+          }
+
+          .eleven {
+            background-color: black;
+            width: 50px;
+            height: 50px;
+            top: 600px;
+            right: 1050px;
+            position: absolute;
+
+
+            -webkit-animation-name: one;
+            -webkit-animation-duration: 7s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-delay: 2s;
+            animation-name: one;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+             animation-delay: 2s;
+          }
+
+
+          @-webkit-keyframes eleven {
+            0%   {background-color:black;}
+            25%   {background-color:red;}
+            50%  {background-color:blue;}
+            75%  {background-color:red;}
+            100% {background-color:black;}
+          }
+
+
+          @keyframes eleven {
+            0%   {background-color:black;}
+            25%  {background-color:red;}
+            50%  {background-color:blue;}
+            75%  {background-color:red;}
+            100% {background-color:black;}
+           }
+
+           .twelve {
+             background-color: black;
+             width: 50px;
+             height: 50px;
+             top: 600px;
+             right: 1200px;
+             position: absolute;
+
+
+             -webkit-animation-name: one;
+             -webkit-animation-duration: 8s;
+             -webkit-animation-iteration-count: infinite;
+             -webkit-animation-delay: 2s;
+             animation-name: one;
+             animation-duration: 8s;
+             animation-iteration-count: infinite;
+              animation-delay: 2s;
+           }
+
+
+           @-webkit-keyframes twelve {
+             0%   {background-color:black;}
+             25%   {background-color:red;}
+             50%  {background-color:blue;}
+             75%  {background-color:red;}
+             100% {background-color:black;}
+           }
+
+
+           @keyframes twelve {
+             0%   {background-color:black;}
+             25%  {background-color:red;}
+             50%  {background-color:blue;}
+             75%  {background-color:red;}
+             100% {background-color:black;}
+            }
+
+            .thirteen {
+              background-color: black;
+              width: 50px;
+              height: 50px;
+              top: 600px;
+              right: 1350px;
+              position: absolute;
+
+
+              -webkit-animation-name: one;
+              -webkit-animation-duration: 9s;
+              -webkit-animation-iteration-count: infinite;
+              -webkit-animation-delay: 2s;
+              animation-name: one;
+              animation-duration: 9s;
+              animation-iteration-count: infinite;
+               animation-delay: 2s;
+            }
+
+
+            @-webkit-keyframes thirteen {
+              0%   {background-color:black;}
+              25%   {background-color:red;}
+              50%  {background-color:blue;}
+              75%  {background-color:red;}
+              100% {background-color:black;}
+            }
+
+
+            @keyframes thirteen {
+              0%   {background-color:black;}
+              25%  {background-color:red;}
+              50%  {background-color:blue;}
+              75%  {background-color:red;}
+              100% {background-color:black;}
+             }
+
+             .fourteen {
+               background-color: black;
+               width: 50px;
+               height: 50px;
+               top: 450px;
+               right: 1350px;
+               position: absolute;
+
+
+               -webkit-animation-name: one;
+               -webkit-animation-duration: 9s;
+               -webkit-animation-iteration-count: infinite;
+               -webkit-animation-delay: 2s;
+               animation-name: one;
+               animation-duration: 9s;
+               animation-iteration-count: infinite;
+                animation-delay: 2s;
+             }
+
+
+             @-webkit-keyframes fourteen {
+               0%   {background-color:black;}
+               25%   {background-color:red;}
+               50%  {background-color:blue;}
+               75%  {background-color:red;}
+               100% {background-color:black;}
+             }
+
+
+             @keyframes fourteen {
+               0%   {background-color:black;}
+               25%  {background-color:red;}
+               50%  {background-color:blue;}
+               75%  {background-color:red;}
+               100% {background-color:black;}
+              }
+
+              .fifteen {
+                background-color: black;
+                width: 50px;
+                height: 50px;
+                top: 450px;
+                right: 1200px;
+                position: absolute;
+
+
+                -webkit-animation-name: one;
+                -webkit-animation-duration: 8s;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-delay: 2s;
+                animation-name: one;
+                animation-duration: 8s;
+                animation-iteration-count: infinite;
+                 animation-delay: 2s;
+              }
+
+
+              @-webkit-keyframes fifteen {
+                0%   {background-color:black;}
+                25%   {background-color:red;}
+                50%  {background-color:blue;}
+                75%  {background-color:red;}
+                100% {background-color:black;}
+              }
+
+
+              @keyframes fifteen {
+                0%   {background-color:black;}
+                25%  {background-color:red;}
+                50%  {background-color:blue;}
+                75%  {background-color:red;}
+                100% {background-color:black;}
+               }
+
+               .sixteen {
+                 background-color: black;
+                 width: 50px;
+                 height: 50px;
+                 top: 450px;
+                 right: 1050px;
+                 position: absolute;
+
+
+                 -webkit-animation-name: one;
+                 -webkit-animation-duration: 7s;
+                 -webkit-animation-iteration-count: infinite;
+                 -webkit-animation-delay: 2s;
+                 animation-name: one;
+                 animation-duration: 7s;
+                 animation-iteration-count: infinite;
+                  animation-delay: 2s;
+               }
+
+
+               @-webkit-keyframes sixteen {
+                 0%   {background-color:black;}
+                 25%   {background-color:red;}
+                 50%  {background-color:blue;}
+                 75%  {background-color:red;}
+                 100% {background-color:black;}
+               }
+
+
+               @keyframes sixteen {
+                 0%   {background-color:black;}
+                 25%  {background-color:red;}
+                 50%  {background-color:blue;}
+                 75%  {background-color:red;}
+                 100% {background-color:black;}
+                }
+
+                .seventeen {
+                  background-color: black;
+                  width: 50px;
+                  height: 50px;
+                  top: 300px;
+                  right: 1050px;
+                  position: absolute;
+
+
+                  -webkit-animation-name: one;
+                  -webkit-animation-duration: 7s;
+                  -webkit-animation-iteration-count: infinite;
+                  -webkit-animation-delay: 2s;
+                  animation-name: one;
+                  animation-duration: 7s;
+                  animation-iteration-count: infinite;
+                   animation-delay: 2s;
+                }
+
+
+                @-webkit-keyframes seventeen {
+                  0%   {background-color:black;}
+                  25%   {background-color:red;}
+                  50%  {background-color:blue;}
+                  75%  {background-color:red;}
+                  100% {background-color:black;}
+                }
+
+
+                @keyframes seventeen {
+                  0%   {background-color:black;}
+                  25%  {background-color:red;}
+                  50%  {background-color:blue;}
+                  75%  {background-color:red;}
+                  100% {background-color:black;}
+                 }
+
+                 .eighteen {
+                   background-color: black;
+                   width: 50px;
+                   height: 50px;
+                   top: 300px;
+                   right: 1200px;
+                   position: absolute;
+
+
+                   -webkit-animation-name: one;
+                   -webkit-animation-duration: 8s;
+                   -webkit-animation-iteration-count: infinite;
+                   -webkit-animation-delay: 2s;
+                   animation-name: one;
+                   animation-duration: 8s;
+                   animation-iteration-count: infinite;
+                    animation-delay: 2s;
+                 }
+
+
+                 @-webkit-keyframes eighteen {
+                   0%   {background-color:black;}
+                   25%   {background-color:red;}
+                   50%  {background-color:blue;}
+                   75%  {background-color:red;}
+                   100% {background-color:black;}
+                 }
+
+
+                 @keyframes eighteen {
+                   0%   {background-color:black;}
+                   25%  {background-color:red;}
+                   50%  {background-color:blue;}
+                   75%  {background-color:red;}
+                   100% {background-color:black;}
+                  }
+
+                  .nineteen {
+                    background-color: black;
+                    width: 50px;
+                    height: 50px;
+                    top: 300px;
+                    right: 1350px;
+                    position: absolute;
+
+
+                    -webkit-animation-name: one;
+                    -webkit-animation-duration: 9s;
+                    -webkit-animation-iteration-count: infinite;
+                    -webkit-animation-delay: 2s;
+                    animation-name: one;
+                    animation-duration: 9s;
+                    animation-iteration-count: infinite;
+                     animation-delay: 2s;
+                  }
+
+
+                  @-webkit-keyframes nineteen {
+                    0%   {background-color:black;}
+                    25%   {background-color:red;}
+                    50%  {background-color:blue;}
+                    75%  {background-color:red;}
+                    100% {background-color:black;}
+                  }
+
+
+                  @keyframes nineteen {
+                    0%   {background-color:black;}
+                    25%  {background-color:red;}
+                    50%  {background-color:blue;}
+                    75%  {background-color:red;}
+                    100% {background-color:black;}
+                   }
+
+                   .twenty {
+                     background-color: black;
+                     width: 50px;
+                     height: 50px;
+                     top: 150px;
+                     right: 1350px;
+                     position: absolute;
+
+
+                     -webkit-animation-name: one;
+                     -webkit-animation-duration: 9s;
+                     -webkit-animation-iteration-count: infinite;
+                     -webkit-animation-delay: 2s;
+                     animation-name: one;
+                     animation-duration: 9s;
+                     animation-iteration-count: infinite;
+                      animation-delay: 2s;
+                   }
+
+
+                   @-webkit-keyframes twenty {
+                     0%   {background-color:black;}
+                     25%   {background-color:red;}
+                     50%  {background-color:blue;}
+                     75%  {background-color:red;}
+                     100% {background-color:black;}
+                   }
+
+
+                   @keyframes twenty {
+                     0%   {background-color:black;}
+                     25%  {background-color:red;}
+                     50%  {background-color:blue;}
+                     75%  {background-color:red;}
+                     100% {background-color:black;}
+                    }
+
+                    .twentyone {
+                      background-color: black;
+                      width: 50px;
+                      height: 50px;
+                      top: 150px;
+                      right: 1200px;
+                      position: absolute;
+
+
+                      -webkit-animation-name: one;
+                      -webkit-animation-duration: 8s;
+                      -webkit-animation-iteration-count: infinite;
+                      -webkit-animation-delay: 22s;
+                      animation-name: one;
+                      animation-duration: 8s;
+                      animation-iteration-count: infinite;
+                       animation-delay: 2s;
+                    }
+
+
+                    @-webkit-keyframes twentyone {
+                      0%   {background-color:black;}
+                      25%   {background-color:red;}
+                      50%  {background-color:blue;}
+                      75%  {background-color:red;}
+                      100% {background-color:black;}
+                    }
+
+
+                    @keyframes twentyone {
+                      0%   {background-color:black;}
+                      25%  {background-color:red;}
+                      50%  {background-color:blue;}
+                      75%  {background-color:red;}
+                      100% {background-color:black;}
+                     }
+
+                     .twentytwo {
+                       background-color: black;
+                       width: 50px;
+                       height: 50px;
+                       top: 150px;
+                       right: 1050px;
+                       position: absolute;
+
+
+                       -webkit-animation-name: one;
+                       -webkit-animation-duration: 7s;
+                       -webkit-animation-iteration-count: infinite;
+                       -webkit-animation-delay: 2s;
+                       animation-name: one;
+                       animation-duration: 7s;
+                       animation-iteration-count: infinite;
+                        animation-delay: 2s;
+                     }
+
+
+                     @-webkit-keyframes twentytwo {
+                       0%   {background-color:black;}
+                       25%   {background-color:red;}
+                       50%  {background-color:blue;}
+                       75%  {background-color:red;}
+                       100% {background-color:black;}
+                     }
+
+
+                     @keyframes twentytwo {
+                       0%   {background-color:black;}
+                       25%  {background-color:red;}
+                       50%  {background-color:blue;}
+                       75%  {background-color:red;}
+                       100% {background-color:black;}
+                      }
+
+                      .twentythree {
+                        background-color: black;
+                        width: 50px;
+                        height: 50px;
+                        top: 25px;
+                        right: 1050px;
+                        position: absolute;
+
+
+                        -webkit-animation-name: one;
+                        -webkit-animation-duration: 7s;
+                        -webkit-animation-iteration-count: infinite;
+                        -webkit-animation-delay: 2s;
+                        animation-name: one;
+                        animation-duration: 7s;
+                        animation-iteration-count: infinite;
+                         animation-delay: 2s;
+                      }
+
+
+                      @-webkit-keyframes twentythree {
+                        0%   {background-color:black;}
+                        25%   {background-color:red;}
+                        50%  {background-color:blue;}
+                        75%  {background-color:red;}
+                        100% {background-color:black;}
+                      }
+
+
+                      @keyframes twentythree {
+                        0%   {background-color:black;}
+                        25%  {background-color:red;}
+                        50%  {background-color:blue;}
+                        75%  {background-color:red;}
+                        100% {background-color:black;}
+}
+
+.twentyfour {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  top: 25px;
+  right: 1200px;
   position: absolute;
 
 
@@ -57,1009 +884,796 @@ h5{
 }
 
 
-@-webkit-keyframes one {
-  0%   {background-color:red;}
-  50%  {background-color:red;}
+@-webkit-keyframes twentyfour {
+  0%   {background-color:black;}
+  25%   {background-color:red;}
+  50%  {background-color:blue;}
   75%  {background-color:red;}
-  100% {background-color:red;}
+  100% {background-color:black;}
 }
 
 
-@keyframes one {
-  0%   {background-color:red;}
+@keyframes twentyfour {
+  0%   {background-color:black;}
   25%  {background-color:red;}
-  50%  {background-color:red;}
+  50%  {background-color:blue;}
   75%  {background-color:red;}
-  100% {background-color:red;}
+  100% {background-color:black;}
  }
 
-
- /* .two:hover {
-   box-shadow: 0 12px 16px 0 #B1FFB8,0 17px 50px 0 #B1FFB8;
-   width: 120px;
-   height: 120px;
-   -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
- } */
-
-.two {
-  width: 50px;
-  height: 720px;
-  top: 0px;
-  right: 0px;
-  background-color: white;
-  position: fixed;
-
-  -webkit-animation-name: two;
-  -webkit-animation-duration: 8s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-delay: 2s;
-  animation-name: two;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-   animation-delay: 2s;
-}
-
-/* @-webkit-keyframes two {
-  0%   {background-color:white; left:300px; top:300px;}
-  25%  {background-color:white; left:100px; top:0px;}
-  50%  {background-color:white; left:200px; top:200px;}
-  75%  {background-color:white; left:0px; top:500px;}
-  100% {background-color:white; left:300px; top:300px;}
-}
-
-
-@keyframes two {
-  0%   {background-color:white; left:300px; top:300px;}
-  25%  {background-color:white; left:100px; top:0px;}
-  50%  {background-color:white; left:200px; top:200px;}
-  75%  {background-color:white; left:0px; top:500px;}
-  100% {background-color:white; left:300px; top:300px;}
- } */
-
- /* .three:hover {
-
-   width: 100px;
-   height: 100px;
-   -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
- } */
-
- .three {
-   width: 150px;
+ .twentyfive {
+   background-color: black;
+   width: 50px;
    height: 50px;
-   top: 250px;
-   right: 350px;
-   background-color: red;
+   top: 25px;
+   right: 1350px;
    position: absolute;
-    transition: width 2s, height 2s, transform 2s;
 
-   -webkit-animation-name: three;
-   -webkit-animation-duration: 8s;
+
+   -webkit-animation-name: one;
+   -webkit-animation-duration: 9s;
    -webkit-animation-iteration-count: infinite;
    -webkit-animation-delay: 2s;
-   animation-name: three;
-   animation-duration: 8s;
+   animation-name: one;
+   animation-duration: 9s;
    animation-iteration-count: infinite;
     animation-delay: 2s;
  }
 
 
- @-webkit-keyframes three {
-   0%   {background-color:red; right:350px; top:250px;}
-   25%  {background-color:red; right:1100px; top:0px;}
-   50%  {background-color:red; right:200px; top:200px;}
-   75%  {background-color:red; right:0px; top:500px;}
-   100% {background-color:red; right:350px; top:250px;}
+ @-webkit-keyframes twentyfive {
+   0%   {background-color:black;}
+   25%   {background-color:red;}
+   50%  {background-color:blue;}
+   75%  {background-color:red;}
+   100% {background-color:black;}
  }
 
 
- @keyframes three {
-   0%   {background-color:red; right:350px; top:250px;}
-   25%  {background-color:red; right:1100px; top:0px;}
-   50%  {background-color:red; right:200px; top:200px;}
-   75%  {background-color:red; right:0px; top:500px;}
-   100% {background-color:red; right:350px; top:250px;}
+ @keyframes twentyfive {
+   0%   {background-color:black;}
+   25%  {background-color:red;}
+   50%  {background-color:blue;}
+   75%  {background-color:red;}
+   100% {background-color:black;}
   }
 
-  /* .four:hover {
-    box-shadow: 0 12px 16px 0 #E8310C,0 17px 50px 0 #E8310C;
-    border-radius: 50px 50px 50px 50px;
-    background-color: blue;
-    padding: 20px;
+  .a {
+    background-color: black;
     width: 50px;
     height: 50px;
-    -webkit-transform: rotate(360deg);
-     transform: rotate(360deg);
-  } */
+    top: 25px;
+    right: 900px;
+    position: absolute;
 
-  .four {
-    width: 1350px;
-    height: 50px;
-    top: 0px;
-    right: 0px;
-    background-color: white;
-    position: fixed;
-     transition: width 2s, height 2s, transform 2s;
 
-    -webkit-animation-name: four;
-    -webkit-animation-duration: 6s;
+    -webkit-animation-name: one;
+    -webkit-animation-duration: 7s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-delay: 2s;
-    animation-name: four;
-    animation-duration: 6s;
+    animation-name: one;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
      animation-delay: 2s;
   }
 
 
-  /* @-webkit-keyframes four {
-  0%   {background-color:yellow; right:300px; top:300px;}
-  25%  {background-color:yellow; right:600px; top:0px;}
-  50%  {background-color:yellow; right:400px; top:400px;}
-  75%  {background-color:yellow; right:150px; top:200px;}
-  100% {background-color:yellow; right:300px; top:300px;}
+  @-webkit-keyframes a {
+    0%   {background-color:black;}
+    25%   {background-color:red;}
+    50%  {background-color:blue;}
+    75%  {background-color:red;}
+    100% {background-color:black;}
   }
 
 
-  @keyframes four {
-  0%   {background-color:yellow; right:300px; top:300px;}
-  25%  {background-color:yellow; right:600px; top:0px;}
-  50%  {background-color:yellow; right:400px; top:400px;}
-  75%  {background-color:yellow; right:150px; top:200px;}
-  100% {background-color:yellow; right:300px; top:300px;}
-   } */
+  @keyframes a {
+    0%   {background-color:black;}
+    25%  {background-color:red;}
+    50%  {background-color:blue;}
+    75%  {background-color:red;}
+    100% {background-color:black;}
+   }
 
-   /* .five:hover {
-     box-shadow: 0 12px 16px 0 #BCB5FF,0 17px 50px 0 #BCB5FF;
+   .b {
+     background-color: black;
      width: 50px;
      height: 50px;
-     -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-   } */
-
-   .five {
-     width: 50px;
-     height: 300px;
-     top: 0px;
-     right: 450px;
-     background-color: orange;
+     top: 25px;
+     right: 750px;
      position: absolute;
-      transition: width 2s, height 2s, transform 2s;
 
-     -webkit-animation-name: five;
+
+     -webkit-animation-name: one;
+     -webkit-animation-duration: 7s;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-delay: 2s;
+     animation-name: one;
+     animation-duration: 7s;
+     animation-iteration-count: infinite;
+      animation-delay: 2s;
+   }
+
+
+   @-webkit-keyframes b {
+     0%   {background-color:black;}
+     25%   {background-color:red;}
+     50%  {background-color:blue;}
+     75%  {background-color:red;}
+     100% {background-color:black;}
+   }
+
+
+   @keyframes b {
+     0%   {background-color:black;}
+     25%  {background-color:red;}
+     50%  {background-color:blue;}
+     75%  {background-color:red;}
+     100% {background-color:black;}
+}
+
+.c {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  top: 25px;
+  right: 600px;
+  position: absolute;
+
+
+  -webkit-animation-name: one;
+  -webkit-animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+  animation-name: one;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+   animation-delay: 2s;
+}
+
+
+@-webkit-keyframes c {
+  0%   {background-color:black;}
+  25%   {background-color:red;}
+  50%  {background-color:blue;}
+  75%  {background-color:red;}
+  100% {background-color:black;}
+}
+
+
+@keyframes c {
+  0%   {background-color:black;}
+  25%  {background-color:red;}
+  50%  {background-color:blue;}
+  75%  {background-color:red;}
+  100% {background-color:black;}
+ }
+
+ .d {
+   background-color: black;
+   width: 50px;
+   height: 50px;
+   top: 25px;
+   right: 450px;
+   position: absolute;
+
+
+   -webkit-animation-name: one;
+   -webkit-animation-duration: 7s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-delay: 2s;
+   animation-name: one;
+   animation-duration: 7s;
+   animation-iteration-count: infinite;
+    animation-delay: 2s;
+ }
+
+
+ @-webkit-keyframes d {
+   0%   {background-color:black;}
+   25%   {background-color:red;}
+   50%  {background-color:blue;}
+   75%  {background-color:red;}
+   100% {background-color:black;}
+ }
+
+
+ @keyframes d {
+   0%   {background-color:black;}
+   25%  {background-color:red;}
+   50%  {background-color:blue;}
+   75%  {background-color:red;}
+   100% {background-color:black;}
+  }
+
+  .e {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    top: 25px;
+    right: 300px;
+    position: absolute;
+
+
+    -webkit-animation-name: one;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    animation-name: one;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+     animation-delay: 2s;
+  }
+
+
+  @-webkit-keyframes e {
+    0%   {background-color:black;}
+    25%   {background-color:red;}
+    50%  {background-color:blue;}
+    75%  {background-color:red;}
+    100% {background-color:black;}
+  }
+
+
+  @keyframes e {
+    0%   {background-color:black;}
+    25%  {background-color:red;}
+    50%  {background-color:blue;}
+    75%  {background-color:red;}
+    100% {background-color:black;}
+   }
+
+   .f {
+     background-color: black;
+     width: 50px;
+     height: 50px;
+     top: 25px;
+     right: 150px;
+     position: absolute;
+
+
+     -webkit-animation-name: one;
+     -webkit-animation-duration: 9s;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-delay: 2s;
+     animation-name: one;
+     animation-duration: 9s;
+     animation-iteration-count: infinite;
+      animation-delay: 2s;
+   }
+
+
+   @-webkit-keyframes f {
+     0%   {background-color:black;}
+     25%   {background-color:red;}
+     50%  {background-color:blue;}
+     75%  {background-color:red;}
+     100% {background-color:black;}
+   }
+
+
+   @keyframes f {
+     0%   {background-color:black;}
+     25%  {background-color:red;}
+     50%  {background-color:blue;}
+     75%  {background-color:red;}
+     100% {background-color:black;}
+    }
+
+    .g {
+      background-color: black;
+      width: 50px;
+      height: 50px;
+      top: 150px;
+      right: 150px;
+      position: absolute;
+
+
+      -webkit-animation-name: one;
+      -webkit-animation-duration: 9s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-delay: 2s;
+      animation-name: one;
+      animation-duration: 9s;
+      animation-iteration-count: infinite;
+       animation-delay: 2s;
+    }
+
+
+    @-webkit-keyframes g {
+      0%   {background-color:black;}
+      25%   {background-color:red;}
+      50%  {background-color:blue;}
+      75%  {background-color:red;}
+      100% {background-color:black;}
+    }
+
+
+    @keyframes g {
+      0%   {background-color:black;}
+      25%  {background-color:red;}
+      50%  {background-color:blue;}
+      75%  {background-color:red;}
+      100% {background-color:black;}
+     }
+
+     .h {
+       background-color: black;
+       width: 50px;
+       height: 50px;
+       top: 300px;
+       right: 150px;
+       position: absolute;
+
+
+       -webkit-animation-name: one;
+       -webkit-animation-duration: 9s;
+       -webkit-animation-iteration-count: infinite;
+       -webkit-animation-delay: 2s;
+       animation-name: one;
+       animation-duration: 9s;
+       animation-iteration-count: infinite;
+        animation-delay: 2s;
+     }
+
+
+     @-webkit-keyframes h {
+       0%   {background-color:black;}
+       25%   {background-color:red;}
+       50%  {background-color:blue;}
+       75%  {background-color:red;}
+       100% {background-color:black;}
+     }
+
+
+     @keyframes h {
+       0%   {background-color:black;}
+       25%  {background-color:red;}
+       50%  {background-color:blue;}
+       75%  {background-color:red;}
+       100% {background-color:black;}
+}
+
+.i {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  top: 450px;
+  right: 150px;
+  position: absolute;
+
+
+  -webkit-animation-name: one;
+  -webkit-animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+  animation-name: one;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+   animation-delay: 2s;
+}
+
+
+@-webkit-keyframes i {
+  0%   {background-color:black;}
+  25%   {background-color:red;}
+  50%  {background-color:blue;}
+  75%  {background-color:red;}
+  100% {background-color:black;}
+}
+
+
+@keyframes i {
+  0%   {background-color:black;}
+  25%  {background-color:red;}
+  50%  {background-color:blue;}
+  75%  {background-color:red;}
+  100% {background-color:black;}
+ }
+
+ .j {
+   background-color: black;
+   width: 50px;
+   height: 50px;
+   top: 600px;
+   right: 150px;
+   position: absolute;
+
+
+   -webkit-animation-name: one;
+   -webkit-animation-duration: 9s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-delay: 2s;
+   animation-name: one;
+   animation-duration: 9s;
+   animation-iteration-count: infinite;
+    animation-delay: 2s;
+ }
+
+
+ @-webkit-keyframes j {
+   0%   {background-color:black;}
+   25%   {background-color:red;}
+   50%  {background-color:blue;}
+   75%  {background-color:red;}
+   100% {background-color:black;}
+ }
+
+
+ @keyframes j {
+   0%   {background-color:black;}
+   25%  {background-color:red;}
+   50%  {background-color:blue;}
+   75%  {background-color:red;}
+   100% {background-color:black;}
+  }
+
+  .k {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    top: 150px;
+    right: 300px;
+    position: absolute;
+
+
+    -webkit-animation-name: one;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    animation-name: one;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+     animation-delay: 2s;
+  }
+
+
+  @-webkit-keyframes k {
+    0%   {background-color:black;}
+    25%   {background-color:red;}
+    50%  {background-color:blue;}
+    75%  {background-color:red;}
+    100% {background-color:black;}
+  }
+
+
+  @keyframes k {
+    0%   {background-color:black;}
+    25%  {background-color:red;}
+    50%  {background-color:blue;}
+    75%  {background-color:red;}
+    100% {background-color:black;}
+   }
+
+   .l {
+     background-color: black;
+     width: 50px;
+     height: 50px;
+     top: 300px;
+     right: 300px;
+     position: absolute;
+
+
+     -webkit-animation-name: one;
      -webkit-animation-duration: 8s;
      -webkit-animation-iteration-count: infinite;
      -webkit-animation-delay: 2s;
-     animation-name: five;
+     animation-name: one;
      animation-duration: 8s;
      animation-iteration-count: infinite;
       animation-delay: 2s;
    }
 
 
- @-webkit-keyframes five {
- 0%   {background-color:orange; right:450px; top:0px;}
- 25%  {background-color:orange; right:1300px; top:100px;}
- 50%  {background-color:orange; right:500px; top:500px;}
- 75%  {background-color:orange; right:200px; top:200px;}
- 100% {background-color:orange; right:450px; top:0px;}
+   @-webkit-keyframes l {
+     0%   {background-color:black;}
+     25%   {background-color:red;}
+     50%  {background-color:blue;}
+     75%  {background-color:red;}
+     100% {background-color:black;}
    }
 
 
- @keyframes five {
-  0%   {background-color:orange; right:450px; top:0px;}
- 25%  {background-color:orange; right:1300px; top:100px;}
- 50%  {background-color:orange; right:500px; top:500px;}
- 75%  {background-color:orange; right:200px; top:200px;}
- 100% {background-color:orange; right:450px; top:0px;}
+   @keyframes l {
+     0%   {background-color:black;}
+     25%  {background-color:red;}
+     50%  {background-color:blue;}
+     75%  {background-color:red;}
+     100% {background-color:black;}
     }
 
-    /* .six:hover {
-      box-shadow: 0 12px 16px 0 #CCFFF7,0 17px 50px 0 #CCFFF7;
-      width: 130px;
-      height: 130px;
-      -webkit-transform: rotate(360deg);
-       transform: rotate(360deg);
-    } */
+    .m {
+      background-color: black;
+      width: 50px;
+      height: 50px;
+      top: 450px;
+      right: 300px;
+      position: absolute;
 
-.six {
+
+      -webkit-animation-name: one;
+      -webkit-animation-duration: 8s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-delay: 2s;
+      animation-name: one;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+       animation-delay: 2s;
+    }
+
+
+    @-webkit-keyframes m {
+      0%   {background-color:black;}
+      25%   {background-color:red;}
+      50%  {background-color:blue;}
+      75%  {background-color:red;}
+      100% {background-color:black;}
+    }
+
+
+    @keyframes m {
+      0%   {background-color:black;}
+      25%  {background-color:red;}
+      50%  {background-color:blue;}
+      75%  {background-color:red;}
+      100% {background-color:black;}
+     }
+
+     .n {
+       background-color: black;
+       width: 50px;
+       height: 50px;
+       top: 600px;
+       right: 300px;
+       position: absolute;
+
+
+       -webkit-animation-name: one;
+       -webkit-animation-duration: 8s;
+       -webkit-animation-iteration-count: infinite;
+       -webkit-animation-delay: 2s;
+       animation-name: one;
+       animation-duration: 8s;
+       animation-iteration-count: infinite;
+        animation-delay: 2s;
+     }
+
+
+     @-webkit-keyframes n {
+       0%   {background-color:black;}
+       25%   {background-color:red;}
+       50%  {background-color:blue;}
+       75%  {background-color:red;}
+       100% {background-color:black;}
+     }
+
+
+     @keyframes n {
+       0%   {background-color:black;}
+       25%  {background-color:red;}
+       50%  {background-color:blue;}
+       75%  {background-color:red;}
+       100% {background-color:black;}
+      }
+
+      .o {
+        background-color: black;
+        width: 50px;
+        height: 50px;
+        top: 150px;
+        right: 450px;
+        position: absolute;
+
+
+        -webkit-animation-name: one;
+        -webkit-animation-duration: 7s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-delay: 2s;
+        animation-name: one;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+         animation-delay: 2s;
+      }
+
+
+      @-webkit-keyframes 0 {
+        0%   {background-color:black;}
+        25%   {background-color:red;}
+        50%  {background-color:blue;}
+        75%  {background-color:red;}
+        100% {background-color:black;}
+      }
+
+
+      @keyframes o {
+        0%   {background-color:black;}
+        25%  {background-color:red;}
+        50%  {background-color:blue;}
+        75%  {background-color:red;}
+        100% {background-color:black;}
+       }
+
+       .p {
+         background-color: black;
+         width: 50px;
+         height: 50px;
+         top: 300px;
+         right: 450px;
+         position: absolute;
+
+
+         -webkit-animation-name: one;
+         -webkit-animation-duration: 7s;
+         -webkit-animation-iteration-count: infinite;
+         -webkit-animation-delay: 2s;
+         animation-name: one;
+         animation-duration: 7s;
+         animation-iteration-count: infinite;
+          animation-delay: 2s;
+       }
+
+
+       @-webkit-keyframes p {
+         0%   {background-color:black;}
+         25%   {background-color:red;}
+         50%  {background-color:blue;}
+         75%  {background-color:red;}
+         100% {background-color:black;}
+       }
+
+
+       @keyframes p {
+         0%   {background-color:black;}
+         25%  {background-color:red;}
+         50%  {background-color:blue;}
+         75%  {background-color:red;}
+         100% {background-color:black;}
+}
+
+.q {
+  background-color: black;
   width: 50px;
-  height: 350px;
-  top: 200px;
-  right: 600px;
-  background-color: purple;
+  height: 50px;
+  top: 450px;
+  right: 450px;
   position: absolute;
-  transition: width 2s, height 2s, transform 2s;
 
-  -webkit-animation-name: six;
-  -webkit-animation-duration: 8s;
+
+  -webkit-animation-name: one;
+  -webkit-animation-duration: 7s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 2s;
-  animation-name: six;
-  animation-duration: 8s;
+  animation-name: one;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
    animation-delay: 2s;
-  }
+}
 
 
-  @-webkit-keyframes six {
-  0%   {background-color:purple; right:200px; top:200px;}
-  25%  {background-color:purple; right:400px; top:200px;}
-  50%  {background-color:purple; right:700px; top:700px;}
-  75%  {background-color:purple; right:500px; top:100px;}
-  100% {background-color:purple; right:600px; top:200px;}
-  }
+@-webkit-keyframes q {
+  0%   {background-color:black;}
+  25%   {background-color:red;}
+  50%  {background-color:blue;}
+  75%  {background-color:red;}
+  100% {background-color:black;}
+}
 
 
-  @keyframes six {
-  0%   {background-color:purple; right:600px; top:200px;}
-  25%  {background-color:purple; right:400px; top:200px;}
-  50%  {background-color:purple; right:700px; top:700px;}
-  75%  {background-color:purple; right:500px; top:100px;}
-  100% {background-color:purple; right:600px; top:200px;}
+@keyframes q {
+  0%   {background-color:black;}
+  25%  {background-color:red;}
+  50%  {background-color:blue;}
+  75%  {background-color:red;}
+  100% {background-color:black;}
  }
 
- /* .seven:hover {
-   box-shadow: 0 12px 16px 0 #FFFE91,0 17px 50px 0 #FFFE91;
-   width: 80px;
-   height: 80px;
-   -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
- } */
-
-.seven {
- width: 100px;
- height: 50px;
- top: 300px;
- right: 150px;
- background-color: red;
- position: absolute;
-  transition: width 2s, height 2s, transform 2s;
-
- -webkit-animation-name: seven;
- -webkit-animation-duration: 8s;
- -webkit-animation-iteration-count: infinite;
- -webkit-animation-delay: 2s;
- animation-name: seven;
- animation-duration: 8s;
- animation-iteration-count: infinite;
-  animation-delay: 2s;
-     }
+ .r {
+   background-color: black;
+   width: 50px;
+   height: 50px;
+   top: 600px;
+   right: 450px;
+   position: absolute;
 
 
- @-webkit-keyframes seven {
-   0%   {background-color:red; right:150px; top:300px;}
-   25%  {background-color:red; right:700px; top:-100px;}
-   50%  {background-color:red; right:300px; top:550px;}
-   75%  {background-color:red; right:900px; top:200px;}
-   100% {background-color:red; right:150px; top:300px;}
-   }
+   -webkit-animation-name: one;
+   -webkit-animation-duration: 7s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-delay: 2s;
+   animation-name: one;
+   animation-duration: 7s;
+   animation-iteration-count: infinite;
+    animation-delay: 2s;
+ }
 
 
- @keyframes seven {
-   0%   {background-color:red; right:150px; top:300px;}
-   25%  {background-color:red; right:700px; top:-100px;}
-   50%  {background-color:red; right:300px; top:550px;}
-   75%  {background-color:red; right:900px; top:200px;}
-   100% {background-color:red; right:150px; top:300px;}
+ @-webkit-keyframes r {
+   0%   {background-color:black;}
+   25%   {background-color:red;}
+   50%  {background-color:blue;}
+   75%  {background-color:red;}
+   100% {background-color:black;}
+ }
+
+
+ @keyframes r {
+   0%   {background-color:black;}
+   25%  {background-color:red;}
+   50%  {background-color:blue;}
+   75%  {background-color:red;}
+   100% {background-color:black;}
   }
 
-  /* .eight:hover {
-    width: 20px;
-    height: 20px;
-    -webkit-transform: rotate(360deg);
-     transform: rotate(360deg);
-  } */
-
-.eight {
-  width: 200px;
-  height: 50px;
-  top: 550px;
-  right: 0px;
-  background-color: pink;
-  position: absolute;
-  transition: width 2s, height 2s, transform 2s;
-
-  -webkit-animation-name: eight;
-  -webkit-animation-duration: 8s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-delay: 2s;
-  animation-name: eight;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-   animation-delay: 2s;
-}
+  .s {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    top: 600px;
+    right: 600px;
+    position: absolute;
 
 
-  @-webkit-keyframes eight {
-  0%   {background-color:pink; right:0px; top:550px;}
-  25%  {background-color:pink; right:900px; top:150px;}
-  50%  {background-color:pink; right:300px; top:400px;}
-  75%  {background-color:pink; right:900px; top:250px;}
-  100% {background-color:pink; right:0px; top:550px;}
-}
-
-
-  @keyframes eight {
-  0%   {background-color:pink; right:0px; top:550px;}
-  25%  {background-color:pink; right:900px; top:150px;}
-  50%  {background-color:pink; right:300px; top:400px;}
-  75%  {background-color:pink; right:900px; top:250px;}
-  100% {background-color:pink; right:0px; top:550px;}
-}
-
-/* .nine:hover {
-  box-shadow: 0 12px 16px 0 blue,0 17px 50px 0 blue;
-  width: 110px;
-  height: 110px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.nine {
- width: 50px;
- height: 600px;
- top: 130px;
- right: 250px;
- background-color: grey;
- position: absolute;
-  transition: width 2s, height 2s, transform 2s;
-
- -webkit-animation-name: nine;
- -webkit-animation-duration: 8s;
- -webkit-animation-iteration-count: infinite;
- -webkit-animation-delay: 2s;
- animation-name: nine;
- animation-duration: 8s;
- animation-iteration-count: infinite;
-  animation-delay: 2s;
-     }
-
-
- @-webkit-keyframes nine {
-   0%   {background-color:grey; right:250px; top:130px;}
-   25%  {background-color:grey; right:700px; top:100px;}
-   50%  {background-color:grey; right:900px; top:250px;}
-   75%  {background-color:grey; right:900px; top:600px;}
-   100% {background-color: grey; right:250px; top:130px;}
-   }
-
-
- @keyframes nine {
-   0%   {background-color:grey; right:250px; top:130px;}
-   25%  {background-color:grey; right:700px; top:100px;}
-   50%  {background-color:grey; right:900px; top:250px;}
-   75%  {background-color:grey; right:900px; top:600px;}
-   100% {background-color:grey; right:250px; top:130px;}
+    -webkit-animation-name: one;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    animation-name: one;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+     animation-delay: 2s;
   }
 
-  /* .ten:hover {
-    box-shadow: 0 12px 16px 0 red,0 17px 50px 0 red;
-    width: 100px;
-    height: 100px;
-    -webkit-transform: rotate(360deg);
-     transform: rotate(360deg);
-   } */
 
-.ten {
-  width: 200px;
-  height: 50px;
-  top: 500px;
-  right: 400px;
-  background-color: brown;
-  position: absolute;
-  transition: width 2s, height 2s, transform 2s;
-
-  -webkit-animation-name: ten;
-  -webkit-animation-duration: 8s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-delay: 2s;
-  animation-name: ten;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-   animation-delay: 2s;
-}
+  @-webkit-keyframes s {
+    0%   {background-color:black;}
+    25%   {background-color:red;}
+    50%  {background-color:blue;}
+    75%  {background-color:red;}
+    100% {background-color:black;}
+  }
 
 
- @-webkit-keyframes ten {
-  0%   {background-color:brown; right:400px; top:500px;}
-  25%  {background-color:brown; right:1200px; top:700px;}
-  50%  {background-color:brown; right:500px; top:150px;}
-  75%  {background-color:brown; right:300px; top:500px;}
-  100% {background-color:brown; right:400px; top:500px;}
-}
+  @keyframes s {
+    0%   {background-color:black;}
+    25%  {background-color:red;}
+    50%  {background-color:blue;}
+    75%  {background-color:red;}
+    100% {background-color:black;}
+   }
+
+   .t {
+     background-color: black;
+     width: 50px;
+     height: 50px;
+     top: 600px;
+     right: 750px;
+     position: absolute;
 
 
- @keyframes ten {
-  0%   {background-color:brown; right:400px; top:500px;}
-  25%  {background-color:brown; right:1200px; top:700px;}
-  50%  {background-color:brown; right:500px; top:150px;}
-  75%  {background-color:brown; right:300px; top:500px;}
-  100% {background-color:brown; right:400px; top:500px;}
-}
-
-/* .eleven:hover {
-  box-shadow: 0 12px 16px 0 white,0 17px 50px 0 white;
-  width: 100px;
-  height: 100px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.eleven {
- width: 1300px;
- height: 50px;
- top: 670px;
- right: 200px;
- background-color: white;
- position: fixed;
-  transition: width 2s, height 2s, transform 2s;
-
- -webkit-animation-name: eleven;
- -webkit-animation-duration: 7s;
- -webkit-animation-iteration-count: infinite;
- -webkit-animation-delay: 2s;
- animation-name: eleven;
- animation-duration: 7s;
- animation-iteration-count: infinite;
-  animation-delay: 2s;
-     }
-
-
- /* @-webkit-keyframes eleven {
-   0%   {background-color:turquoise; left:500px; top:150px;}
-   25%  {background-color:turquoise; left:900px; top:150px;}
-   50%  {background-color:turquoise; left:900px; top:550px;}
-   75%  {background-color:turquoise; left:500px; top:550px;}
-   100% {background-color:turquoise; left:500px; top:150px;}
+     -webkit-animation-name: one;
+     -webkit-animation-duration: 7s;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-delay: 2s;
+     animation-name: one;
+     animation-duration: 7s;
+     animation-iteration-count: infinite;
+      animation-delay: 2s;
    }
 
 
- @keyframes eleven {
-   0%   {background-color:turquoise; left:500px; top:150px;}
-   25%  {background-color:turquoise; left:900px; top:150px;}
-   50%  {background-color:turquoise; left:900px; top:550px;}
-   75%  {background-color:turquoise; left:500px; top:550px;}
-   100% {background-color:turquoise; left:500px; top:150px;}
-  } */
-
-  /* .twelve:hover {
-    box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-    width: 70px;
-    height: 70px;
-    -webkit-transform: rotate(360deg);
-     transform: rotate(360deg);
-   } */
-
-.twelve {
-  width: 50px;
-  height: 400px;
-  top: 300px;
-  right: 750px;
-  background-color: red;
-  position: absolute;
-  transition: width 2s, height 2s, transform 2s;
-
-  -webkit-animation-name: twelve;
-  -webkit-animation-duration: 8s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-delay: 2s;
-  animation-name: twelve;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-   animation-delay: 2s;
-}
-
-
-@-webkit-keyframes twelve {
-  0%   {background-color:red; right:750px; top:300px;}
-  25%  {background-color:red; right:1300px; top:400px;}
-  50%  {background-color:red; right:300px; top:250px;}
-  75%  {background-color:red; right:900px; top:600px;}
-  100% {background-color:red; right:750px; top:300px;}
-}
-
-
- @keyframes twelve {
-   0%   {background-color:red; right:750px; top:300px;}
-   25%  {background-color:red; right:1300px; top:400px;}
-   50%  {background-color:red; right:300px; top:250px;}
-   75%  {background-color:red; right:900px; top:600px;}
-   100% {background-color:red; right:750px; top:300px;}
-}
-
-/* .thirteen:hover {
-  box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-  width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.thirteen {
-width: 50px;
-height: 200px;
-top: 300px;
-right: 1150px;
-background-color: red;
-position: absolute;
-transition: width 2s, height 2s, transform 2s;
-
--webkit-animation-name: thirteen;
--webkit-animation-duration: 8s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 2s;
-animation-name: thirteen;
-animation-duration: 8s;
-animation-iteration-count: infinite;
- animation-delay: 2s;
-}
-
-
-@-webkit-keyframes v {
-0%   {background-color:red; right:1150px; top:300px;}
-25%  {background-color:red; right:1150px; top:600px;}
-50%  {background-color:red; right:100px; top:150px;}
-75%  {background-color:red; right:50px; top:50px;}
-100% {background-color:red; right:1150px; top:300px;}
-}
-
-
-@keyframes thirteen {
- 0%   {background-color:red; right:1150px; top:300px;}
- 25%  {background-color:red; right:1150px; top:600px;}
- 50%  {background-color:red; right:100px; top:150px;}
- 75%  {background-color:red; right:50px; top:50px;}
- 100% {background-color:red; right:1150px; top:300px;}
-}
-
-/* .fourteen:hover {
-  box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-  width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.fourteen {
-width: 50px;
-height: 250px;
-top: 350px;
-right: 1330px;
-background-color: red;
-position: absolute;
-transition: width 2s, height 2s, transform 2s;
-
--webkit-animation-name: fourteen;
--webkit-animation-duration: 8s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 2s;
-animation-name: fourteen;
-animation-duration: 8s;
-animation-iteration-count: infinite;
- animation-delay: 2s;
-}
-
-
-@-webkit-keyframes fourteen {
-0%   {background-color:red; right:1330px; top:350px;}
-25%  {background-color:red; right:50px; top:50px;}
-50%  {background-color:red; right:600px; top:650px;}
-75%  {background-color:red; right:200px; top:100px;}
-100% {background-color:red; right:1330px; top:350px;}
-}
-
-
-@keyframes fourteen {
- 0%   {background-color:red; right:1330px; top:350px;}
- 25%  {background-color:red; right:50px; top:50px;}
- 50%  {background-color:red; right:600px; top:650px;}
- 75%  {background-color:red; right:200px; top:100px;}
- 100% {background-color:red; right:1330px; top:350px;}
-}
-
-/* .fifteen:hover {
-  box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-  width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.fifteen {
-width: 50px;
-height: 200px;
-top: 00px;
-right: 700px;
-background-color: indigo;
-position: absolute;
-transition: width 2s, height 2s, transform 2s;
-
--webkit-animation-name: fifteen;
--webkit-animation-duration: 8s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 2s;
-animation-name: fifteen;
-animation-duration: 8s;
-animation-iteration-count: infinite;
- animation-delay: 2s;
-}
-
-
-@-webkit-keyframes fifteen {
-0%   {background-color:indigo; right:700px; top:0px;}
-25%  {background-color:indigo; right:800px; top:400px;}
-50%  {background-color:indigo; right:1300px; top:750px;}
-75%  {background-color:indigo; right:600px; top:100px;}
-100% {background-color:indigo; right:700px; top:0px;}
-}
-
-
-@keyframes fifteen {
- 0%   {background-color:indigo; right:700px; top:0px;}
- 25%  {background-color:indigo; right:800px; top:400px;}
- 50%  {background-color:indigo; right:1300px; top:750px;}
- 75%  {background-color:indigo; right:600px; top:100px;}
- 100% {background-color:indigo; right:700px; top:0px;}
-}
-
-/* .sixteen:hover {
-  box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-  width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.sixteen {
-width: 50px;
-height: 350px;
-top: 150px;
-right: 850px;
-background-color: darkblue;
-position: absolute;
-transition: width 2s, height 2s, transform 2s;
-
--webkit-animation-name: sixteen;
--webkit-animation-duration: 8s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 2s;
-animation-name: sixteen;
-animation-duration: 8s;
-animation-iteration-count: infinite;
- animation-delay: 2s;
-}
-
-
-@-webkit-keyframes sixteen {
-0%   {background-color:darkblue; right:850px; top:150px;}
-25%  {background-color:darkblue; right:0px; top:650px;}
-50%  {background-color:darkblue; right:100px; top:250px;}
-75%  {background-color:darkblue; right:1390px; top:350px;}
-100% {background-color:darkblue; right:850px; top:150px;}
-}
-
-
-@keyframes sixteen {
- 0%   {background-color:darkblue; right:850px; top:150px;}
- 25%  {background-color:darkblue; right:0px; top:650px;}
- 50%  {background-color:darkblue; right:100px; top:250px;}
- 75%  {background-color:darkblue; right:1390px; top:350px;}
- 100% {background-color:darkblue; right:850px; top:150px;}
-}
-
-/* .seventeen:hover {
-  box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-  width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.seventeen {
-width: 200px;
-height: 50px;
-top: 150px;
-right: 1270px;
-background-color: lightblue;
-position: absolute;
-transition: width 2s, height 2s, transform 2s;
-
--webkit-animation-name: seventeen;
--webkit-animation-duration: 8s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 2s;
-animation-name: seventeen;
-animation-duration: 8s;
-animation-iteration-count: infinite;
- animation-delay: 2s;
-}
-
-
-@-webkit-keyframes seventeen {
-0%   {background-color:lightblue; right:1270px; top:150px;}
-25%  {background-color:lightblue; right:50px; top:400px;}
-50%  {background-color:lightblue; right:1250px; top:550px;}
-75%  {background-color:lightblue; right:900px; top:60px;}
-100% {background-color:lightblue; right:1270px; top:150px;}
-}
-
-
-@keyframes seventeen {
- 0%   {background-color:lightblue; right:1270px; top:150px;}
- 25%  {background-color:lightblue; right:50px; top:400px;}
- 50%  {background-color:lightblue; right:1250px; top:550px;}
- 75%  {background-color:lightblue; right:900px; top:60px;}
- 100% {background-color:lightblue; right:1270px; top:150px;}
-}
-
-/* .eighteen:hover {
-  box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-  width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.eighteen {
-width: 50px;
-height: 300px;
-top: 0px;
-right: 1150px;
-background-color: red;
-position: absolute;
-transition: width 2s, height 2s, transform 2s;
-
--webkit-animation-name: eighteen;
--webkit-animation-duration: 8s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 2s;
-animation-name: eighteen;
-animation-duration: 8s;
-animation-iteration-count: infinite;
- animation-delay: 2s;
-}
-
-
-@-webkit-keyframes eighteen {
-0%   {background-color:red; right:1150px; top:0px;}
-25%  {background-color:red; right:500px; top:150px;}
-50%  {background-color:red; right:800px; top:50px;}
-75%  {background-color:red; right:900px; top:400px;}
-100% {background-color:red; right:1150px; top:0px;}
-}
-
-
-@keyframes eighteen {
- 0%   {background-color:red; right:1150px; top:0px;}
- 25%  {background-color:red; right:500px; top:150px;}
- 50%  {background-color:red; right:800px; top:50px;}
- 75%  {background-color:red; right:750px; top:400px;}
- 100% {background-color:red; right:1150px; top:0px;}
-}
-
-/* .nineteen:hover {
-  box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-  width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.nineteen {
-width: 230px;
-height: 50px;
-top: 300px;
-right: 1150px;
-background-color: magenta;
-position: absolute;
-transition: width 2s, height 2s, transform 2s;
-
--webkit-animation-name: nineteen;
--webkit-animation-duration: 8s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 2s;
-animation-name: nineteen;
-animation-duration: 8s;
-animation-iteration-count: infinite;
- animation-delay: 2s;
-}
-
-
-@-webkit-keyframes nineteen {
-0%   {background-color:magenta; right:1150px; top:300px;}
-25%  {background-color:magenta; right:1330px; top:400px;}
-50%  {background-color:magenta; right:1450px; top:250px;}
-75%  {background-color:magenta; right:900px; top:450px;}
-100% {background-color:magenta; right:1150px; top:300px;}
-}
-
-
-@keyframes nineteen {
- 0%   {background-color:magenta; right:1150px; top:300px;}
- 25%  {background-color:magenta; right:1330px; top:400px;}
- 50%  {background-color:magenta; right:1450px; top:250px;}
- 75%  {background-color:magenta; right:900px; top:450px;}
- 100% {background-color:magenta; right:1150px; top:300px;}
-}
-
-/* .twenty:hover {
-  box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-  width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.twenty {
-width: 300px;
-height: 50px;
-top: 450px;
-right: 900px;
-background-color: lightgreen;
-position: absolute;
-transition: width 2s, height 2s, transform 2s;
-
--webkit-animation-name: twenty;
--webkit-animation-duration: 8s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 2s;
-animation-name: twenty;
-animation-duration: 8s;
-animation-iteration-count: infinite;
- animation-delay: 2s;
-}
-
-
-@-webkit-keyframes twenty {
-0%   {background-color:lightgreen; right:900px; top:450px;}
-25%  {background-color:lightgreen; right:300px; top:400px;}
-50%  {background-color:lightgreen; right:1100px; top:750px;}
-75%  {background-color:lightgreen; right:500px; top:600px;}
-100% {background-color:lightgreen; right:900px; top:450px;}
-}
-
-
-@keyframes twenty {
- 0%   {background-color:lightgreen; right:900px; top:450px;}
- 25%  {background-color:lightgreen; right:300px; top:400px;}
- 50%  {background-color:lightgreen; right:1100px; top:750px;}
- 75%  {background-color:lightgreen; right:500px; top:600px;}
- 100% {background-color:lightgreen; right:900px; top:450px;}
-}
-
-/* .twentyone:hover {
-  box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-  width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.twentyone {
-width: 50px;
-height: 100px;
-top: 0px;
-right: 1300px;
-background-color: silver;
-position: absolute;
-transition: width 2s, height 2s, transform 2s;
-
--webkit-animation-name: twentyone;
--webkit-animation-duration: 8s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 2s;
-animation-name: twentyone;
-animation-duration: 8s;
-animation-iteration-count: infinite;
- animation-delay: 2s;
-}
-
-
-@-webkit-keyframes twentyone {
-0%   {background-color:silver; right:1300px; top:0px;}
-25%  {background-color:silver; right:1000px; top:400px;}
-50%  {background-color:silver; right:1300px; top:250px;}
-75%  {background-color:silver; right:900px; top:600px;}
-100% {background-color:silver; right:1300px; top:0px;}
-}
-
-
-@keyframes twentyone {
- 0%   {background-color:silver; right:1300px; top:0px;}
- 25%  {background-color:silver; right:500px; top:400px;}
- 50%  {background-color:silver; right:1300px; top:250px;}
- 75%  {background-color:silver; right:900px; top:600px;}
- 100% {background-color:silver; right:1300px; top:0px;}
-}
-
-/* .twentytwo:hover {
-  box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-  width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.twentytwo {
-width: 100px;
-height: 720px;
-top: 0px;
-right: 1450px;
-background-color: white;
-position: fixed;
-transition: width 2s, height 2s, transform 2s;
-
--webkit-animation-name: twentytwo;
--webkit-animation-duration: 3s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 2s;
-animation-name: twentytwo;
-animation-duration: 3s;
-animation-iteration-count: infinite;
- animation-delay: 2s;
-}
-
-
-/* @-webkit-keyframes twentytwo {
-0%   {background-color:red; right:1450px; top:0px;}
-25%  {background-color:yellow; right:500px; top:400px;}
-50%  {background-color:blue; right:300px; top:250px;}
-75%  {background-color:green; right:900px; top:600px;}
-100% {background-color:red; right:1450px; top:0px;}
-}
-
-
-@keyframes twentytwo {
- 0%   {background-color:red; left:1450px; top:0px;}
- 25%  {background-color:yellow; left:500px; top:400px;}
- 50%  {background-color:blue; left:300px; top:250px;}
- 75%  {background-color:green; left:900px; top:600px;}
- 100% {background-color:red; left:1450px; top:0px;}
-} */
-
-/* .twentythree:hover {
-  box-shadow: 0 12px 16px 0 grey,0 17px 50px 0 grey;
-  width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
- } */
-
-.twentythree {
-width: 50px;
-height: 100px;
-top: 500px;
-right: 1000px;
-background-color: darkred;
-position: absolute;
-transition: width 2s, height 2s, transform 2s;
-
--webkit-animation-name: twelve;
--webkit-animation-duration: 8s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 2s;
-animation-name: twelve;
-animation-duration: 8s;
-animation-iteration-count: infinite;
- animation-delay: 2s;
-}
-
-
-@-webkit-keyframes twelve {
-0%   {background-color:darkred; right:1000px; top:500px;}
-25%  {background-color:darkred; right:500px; top:100px;}
-50%  {background-color:darkred; right:700px; top:250px;}
-75%  {background-color:darkred; right:200px; top:600px;}
-100% {background-color:darkred; right:1000px; top:500px;}
-}
-
-
-@keyframes twelve {
- 0%   {background-color:darkred; right:1000px; top:500px;}
- 25%  {background-color:darkred; right:500px; top:100px;}
- 50%  {background-color:darkred; right:700px; top:250px;}
- 75%  {background-color:darkred; right:200px; top:600px;}
- 100% {background-color:darkred; right:1000px; top:500px;}
-}
+   @-webkit-keyframes t {
+     0%   {background-color:black;}
+     25%   {background-color:red;}
+     50%  {background-color:blue;}
+     75%  {background-color:red;}
+     100% {background-color:black;}
+   }
+
+
+   @keyframes t {
+     0%   {background-color:black;}
+     25%  {background-color:red;}
+     50%  {background-color:blue;}
+     75%  {background-color:red;}
+     100% {background-color:black;}
+    }
